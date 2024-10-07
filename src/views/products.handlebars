@@ -1,0 +1,21 @@
+<h1 class="text-center mt-3 pt-5">PRODUCTS</h1>
+
+
+<section class="flex-wrap d-flex justify-content-evenly">
+
+ {{#each allProducts}}
+
+<article>
+    <div class="card my-3" style="width: 18rem;">
+  <img src="{{this.img}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{this.title}}</h5>
+    <p class="card-text">${{this.price}}</p>
+    <a href="/products/{{this.id}}" class="btn btn-primary">See product</a>
+  </div>
+</div>
+</article>
+
+{{/each}}
+
+</section>
