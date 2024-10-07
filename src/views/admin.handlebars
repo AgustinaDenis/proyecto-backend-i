@@ -1,0 +1,58 @@
+
+<div class="text-center pt-5">
+    <h1>Panel de Administración</h1>
+</div>
+
+
+<!-- Formulario para crear un nuevo producto -->
+<div class="pt-3">
+   <h2>Crear Producto</h2>
+</div>
+
+<div class="pt-2">
+    <form action="/products/admin/create" method="POST">
+    <input type="text" name="title" placeholder="Nombre del producto" required />
+    <input type="text" name="category" placeholder="Categoría" required />
+    <input type="number" name="price" placeholder="Precio" required />
+    <input type="number" name="stock" placeholder="Stock" required />
+    <input type="text" name="img" placeholder="URL de la imagen" required />
+    <button id="botonCreate" type="submit">Crear Producto</button>
+</form>
+
+</div>
+
+
+<div class="pt-5">
+   <h2>Productos Existentes</h2>
+</div>
+
+
+
+{{#each products}}
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="{{this.img}}" class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <!-- Formulario para actualizar el producto -->
+                <form action="/products/admin/update/{{this.id}}" method="POST" style="display:inline;">
+                    <input type="text" name="title" value="{{this.title}}" required />
+                    <input type="text" name="category" value="{{this.category}}" required />
+                    <input type="number" name="price" value="{{this.price}}" required />
+                    <input type="number" name="stock" value="{{this.stock}}" required />
+                    <input type="img" name="img" value="{{this.img}}" required />
+                    <button id="botonUpdate" type="submit">Actualizar</button>
+                </form>
+                <!-- Formulario para eliminar el producto -->
+                <form action="/products/admin/delete/{{this.id}}" method="POST" style="display:inline;">
+                    <button id="botonDelete" type="submit">Eliminar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/each}}

@@ -1,0 +1,106 @@
+[
+  {
+    "email": "holahola@gmail.com",
+    "password": "chauchau",
+    "id": "b4e30b61f5abb2d5c2d297f8"
+  },
+  {
+    "email": "pambolsa42@gmail.com",
+    "password": "crash123",
+    "id": "7242a8a0a9dd0b7e2fd08720"
+  },
+  {
+    "email": "lolero45@gmail.com",
+    "password": "lolero45",
+    "id": "4de08cf760a6cb5d7e8ca095"
+  },
+  {
+    "email": "eze21@gmail.com",
+    "password": "ezequiel",
+    "id": "035d07d3b4f8eb3596606518"
+  },
+  {
+    "name": "delf",
+    "email": "delf@gmail.com",
+    "password": "delf5678",
+    "repeatPassword": "delf5678",
+    "id": "0ed231b89009c68b6ebcbcb5"
+  },
+  {
+    "name": "pepito",
+    "email": "pepito@gmail.com",
+    "password": "pepito123",
+    "repeatPassword": "pepito123",
+    "id": "8493d8bd6da23d65c1c0673d"
+  },
+  {
+    "name": "eze",
+    "email": "asuhd@sdj",
+    "password": "ezeeze123",
+    "repeatPassword": "ezeeze123",
+    "id": "dcbcad24775e4e124a988b51"
+  },
+  {
+    "name": "Agus",
+    "email": "fhdhgf@dbgb",
+    "password": "ghjk",
+    "repeatPassword": "ghjk",
+    "id": "4d713d1ca0836f59742685dc"
+  },
+  {
+    "name": "Agustina",
+    "email": "fhdhgf@dbgb",
+    "password": "1234567",
+    "repeatPassword": "1234567",
+    "id": "7f709caf6cbd5757d86045d3"
+  },
+  {
+    "name": "Gus",
+    "email": "gus@gmail.com",
+    "password": "gusgus",
+    "repeatPassword": "gusgus",
+    "id": "6856c186400def18fb670d02"
+  },
+  {
+    "name": "Agustina Denis",
+    "email": "fhdhgf@dbdsnefn",
+    "password": "asdf",
+    "repeatPassword": "asdf",
+    "id": "2790348b01a576bc67f759ed"
+  },
+  {
+    "name": "Peque",
+    "email": "peque@peque.com",
+    "password": "peque",
+    "repeatPassword": "peque",
+    "id": "e232c19bfe42c1e2856cefbc"
+  },
+  {
+    "name": "Agustina",
+    "email": "fhdhgf@dbdsnefn.com",
+    "password": "hola",
+    "repeatPassword": "hola",
+    "id": "66786c1815abd204cc20cfeb"
+  },
+  {
+    "name": "Baghi",
+    "email": "baghi@baghi.com",
+    "password": "baghira",
+    "repeatPassword": "baghira",
+    "id": "e8e39d5c1a1d5b439b86a8f2"
+  },
+  {
+    "name": "Taylor Swift",
+    "email": "taytay@gmail.com",
+    "password": "taylor123",
+    "repeatPassword": "taylor123",
+    "id": "96089ce688227577b138a0f3"
+  },
+  {
+    "name": "Kirby",
+    "email": "kirby@hola.com",
+    "password": "hola123",
+    "repeatPassword": "hola123",
+    "id": "d6ab1f77676d8bbef162e6d2"
+  }
+]

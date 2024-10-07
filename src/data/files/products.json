@@ -1,0 +1,330 @@
+[
+  {
+    "title": "notebook asus",
+    "price": "1000000",
+    "category": "computadoras",
+    "stock": 5,
+    "id": "60503dcecfabd62755c39dd8",
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/JyNMe54QqkoWP7UGGiz6/imagen"
+  },
+  {
+    "title": "JoystickPS5",
+    "price": "160000",
+    "category": "accesorios",
+    "stock": 2,
+    "id": "7c6efae114351217d52b4e4c",
+    "img": "https://arsonyb2c.vtexassets.com/arquivos/ids/348023-800-800?v=637363644415730000&width=800&height=800&aspect=true"
+  },
+  {
+    "title": "JoystickPS2",
+    "category": "accesorios",
+    "price": "80000",
+    "stock": "1",
+    "id": "8b670564aaaa94bb04c47a53",
+    "img": "https://acdn.mitiendanube.com/stores/001/688/455/products/eew-f84fc415022570a4b817160449619163-1024-1024.png"
+  },
+  {
+    "title": "JoystickPS3",
+    "category": "accesorios",
+    "price": "80000",
+    "stock": "1",
+    "id": "e103c10c7f3811f543805271",
+    "img": "https://acdn.mitiendanube.com/stores/456/610/products/jdps3-4b98845535394128f217158790420492-1024-1024.jpg"
+  },
+  {
+    "title": "JoystickPS3",
+    "category": "accesorios",
+    "price": "80000",
+    "stock": "1",
+    "id": "405a944714aa7e3a6f9d9d1e",
+    "img": "https://acdn.mitiendanube.com/stores/456/610/products/jdps3-4b98845535394128f217158790420492-1024-1024.jpg"
+  },
+  {
+    "title": "JoystickPS3",
+    "category": "accesorios",
+    "price": "80000",
+    "stock": "0",
+    "id": "562253391f58b5e8738e7f80",
+    "img": "https://acdn.mitiendanube.com/stores/456/610/products/jdps3-4b98845535394128f217158790420492-1024-1024.jpg"
+  },
+  {
+    "title": "mouse logitech superlight",
+    "category": "accesorios",
+    "price": "156000",
+    "stock": "3",
+    "id": "4441cb3a6fca149b3516acba",
+    "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-6.png"
+  },
+  {
+    "title": "mouse logitech superlight",
+    "category": "accesorios",
+    "price": "156000",
+    "stock": "3",
+    "id": "6103390f510dfa2d81f9e5f4",
+    "img": "https://resource.logitech.com/content/dam/gaming/en/products/pro-x-superlight-2/gallery-5-pro-x-superlight-2-gaming-mouse-white.png"
+  },
+  {
+    "title": "teclado logitech",
+    "category": "accesorios",
+    "price": "156000",
+    "stock": "2",
+    "id": "e95d7f9f39ed8e13f61463b3",
+    "img": "https://mlx.com.ar/wp-content/uploads/PER104-2-jpg.webp"
+  },
+  {
+    "title": "parlantes genius",
+    "stock": 1,
+    "price": 70000,
+    "id": "f22b246689d3212b81501d39",
+    "category": "audio",
+    "img": "https://www.oscarbarbieri.com/pub/media/catalog/product/cache/7baadf0dec41407c7702efdbff940ecb/p/a/parlante-genius-sphf180-6w-usb-power-madera-0.jpg"
+  },
+  {
+    "title": "auriculares sony",
+    "category": "audio",
+    "price": "200000",
+    "stock": "1",
+    "id": "efe20a384fbed162bbe0c527",
+    "img": "https://www.sony.com.ar/image/dd18cf93606d238305a733d336c45537?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+  },
+  {
+    "title": "auriculares razer",
+    "category": "audio",
+    "price": "67000",
+    "stock": "1",
+    "id": "4782be587c4b820f1614f0b3",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_923817-MLU69865285193_062023-O.webp"
+  },
+  {
+    "title": "parlantes genius",
+    "category": "audio",
+    "price": 70000,
+    "stock": 1,
+    "id": "5fe3e2eac9be18892537ba28",
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/mOXyYIO0xNRry6WH3QX5/imagen"
+  },
+  {
+    "title": "microfono hyperx",
+    "category": "audio",
+    "price": 90000,
+    "stock": 1,
+    "id": "34e8eab4dc406bc8cc9ac774",
+    "img": "https://spacegamer.com.ar/img/Public/1058-producto-550x782-4079.jpg"
+  },
+  {
+    "title": "parlantes genius",
+    "category": "audio",
+    "price": 75000,
+    "stock": 1,
+    "id": "1118be6a0b98ff4047330f81",
+    "img": "https://www.computershopping.com.ar/Images/Productos/Grandes/Genius-SP-HF500A_Foto0g.jpg"
+  },
+  {
+    "title": "microfono hyperx",
+    "category": "audio",
+    "price": 90000,
+    "stock": 1,
+    "id": "9da562a7fd43f30f6c5f8ce8",
+    "img": "https://fullh4rd.com.ar/img/productos/28/microfono-hyperx-solocast-black-pc-ps4-4p5p8aa-0.jpg"
+  },
+  {
+    "title": "microfono hyperx",
+    "category": "audio",
+    "price": 90000,
+    "stock": 1,
+    "id": "cdddf9952cd24fc981ce2175",
+    "img": "https://app.contabilium.com/files/explorer/48428/Productos-Servicios/concepto-13914565.jpg"
+  },
+  {
+    "title": "monitor lg",
+    "category": "monitores",
+    "price": 200000,
+    "stock": 1,
+    "id": "cda0be59e587c53d76f1aec6",
+    "img": "https://www.casadelaudio.com/Image/0/750_750-553-L-G-807-2.png"
+  },
+  {
+    "title": "teclado redragon",
+    "category": "accesorios",
+    "price": "200000",
+    "stock": "1",
+    "id": "25773fd5fdc0528f73b0bf2f",
+    "img": "https://acdn.mitiendanube.com/stores/002/836/144/products/1-a15f914ee20dccd7bf17207206710967-1024-1024.jpg"
+  },
+  {
+    "title": "disco externo toshiba",
+    "category": "accesorios",
+    "price": 200000,
+    "stock": 1,
+    "id": "0051467ab85458859e94789f",
+    "img": "https://argentina.solutekla.com/photo/1/toshiba/discos_duros_externos/disco_duro_canvio_basic_1tb_neg_25_capacidad_1_tb_usb_30_compatible_con_usb_20_velocidad_5400_cache_de_8_rpm_compatible_con_windows_81_8_7_hasta_5gbs_de_velocidad_de_transferencia/disco_duro_canvio_basic_1tb_neg_25_capacidad_1_tb_usb_30_compatible_con_usb_20_velocidad_5400_cache_de_8_rpm_compatible_con_windows_81_8_7_hasta_5gbs_de_velocidad_de_transferencia_0001"
+  },
+  {
+    "title": "joystick xbox",
+    "category": "accesorios",
+    "price": 180000,
+    "stock": 1,
+    "id": "43f8e3660fb6c91d9ab1705e",
+    "img": "https://nextgames.com.ar/img/Public/1040-producto-joy-elite2-1-9580.jpg"
+  },
+  {
+    "title": "joystick xbox",
+    "category": "accesorios",
+    "price": 180000,
+    "stock": 1,
+    "id": "9c63eaf88f73ac76205369d6",
+    "img": "https://images.fravega.com/f500/9bf0c5a87ddb069a1a9f14c9854a0e4c.jpg"
+  },
+  {
+    "title": "joystick xbox",
+    "category": "accesorios",
+    "price": 180000,
+    "stock": 1,
+    "id": "cb868f971d2f4246abb67fb7",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41FVxspNcBL.jpg"
+  },
+  {
+    "title": "joystick xbox",
+    "category": "accesorios",
+    "price": 180000,
+    "stock": 1,
+    "id": "3b3b99fef935fdae2e00055c",
+    "img": "https://www.molex.com.ar/wp-content/uploads/2023/08/Diseno-sin-titulo-2023-08-31T111129.649-600x600.png"
+  },
+  {
+    "title": "placa de video",
+    "category": "accesorios",
+    "price": 600000,
+    "stock": 1,
+    "id": "81ee8c3f6587f3cfa3731003",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_847692-MLA52992875358_122022-O.webp"
+  },
+  {
+    "title": "placa de video nvidia",
+    "category": "accesorios",
+    "price": 600000,
+    "stock": 1,
+    "id": "3ea03616f2b012ff3e1b00be",
+    "img": "https://mexx-img-2019.s3.amazonaws.com/Placa-De-Video-GeForce-RTX-4060-8Gb-Msi-Ventus-2x-Black-Oc_46858_1.jpeg"
+  },
+  {
+    "title": "placa de video amd radeon",
+    "category": "accesorios",
+    "price": 550000,
+    "stock": 1,
+    "id": "cc70ee9b22c20838136ef5c6",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_766572-MLA51733849190_092022-O.webp"
+  },
+  {
+    "title": "placa de video amd radeon",
+    "category": "accesorios",
+    "price": 550000,
+    "stock": 1,
+    "id": "c2e47fe8a0d7eecae7a389eb",
+    "img": "https://mauricomputacion.com.ar/images/productos/23442.webp"
+  },
+  {
+    "title": "placa de video amd radeon",
+    "category": "accesorios",
+    "price": 550000,
+    "stock": 1,
+    "id": "247273e6bc859ea285a5f984",
+    "img": "https://logg.api.cygnus.market/static/logg/Global/Placa%20de%20Video%20SAPPHIRE%20AMD%20Radeon%20RX%206500%20XT%20PULSE%20OC%204GB%20GDDR6/7ff77e0104074d27bee90c1b901d782c.webp"
+  },
+  {
+    "title": "placa de video amd radeon",
+    "category": "accesorios",
+    "price": 550000,
+    "stock": 1,
+    "id": "27ded1b43dd65ef71a175afa",
+    "img": "https://logg.api.cygnus.market/static/logg/Global/Placa%20de%20Video%20GIGABYTE%20AMD%20Radeon%20RX%206900%20XT%20AORUS%20MASTER%20(rev.%201.0)%2016GB%20GDDR6%20PCIe%204.0%20RGB/264209383ede4ff285f4dc5c417cf7a2.webp"
+  },
+  {
+    "title": "fuente 500w",
+    "category": "accesorios",
+    "price": 150000,
+    "stock": 1,
+    "id": "a252079ef402837661766db8",
+    "img": "https://fullh4rd.com.ar/img/productos/26/fuente-500w-thermaltake-smart-80-plus-white-0.jpg"
+  },
+  {
+    "title": "fuente 500w",
+    "category": "accesorios",
+    "price": 150000,
+    "stock": 1,
+    "id": "9218b80676fef0e56c4edab0",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_739712-MLA43597661433_092020-O.webp"
+  },
+  {
+    "title": "placa de audio soundblaster",
+    "category": "audio",
+    "price": 300000,
+    "stock": 1,
+    "id": "9fa8dec343b9af9c01cf8297",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_938122-MLA46233765778_062021-O.webp"
+  },
+  {
+    "title": "placa de audio",
+    "category": "audio",
+    "price": 300000,
+    "stock": 1,
+    "id": "01e6fdc5afef0ba9b58b018f",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_862435-MLU73637595224_122023-O.webp"
+  },
+  {
+    "title": "nintendo switch",
+    "category": "consola",
+    "price": 500000,
+    "stock": 1,
+    "id": "090b2d6d5f621e4caf275ede",
+    "img": "https://www.nintendo.com/eu/media/images/08_content_images/systems_5/nintendo_switch_3/nintendo_switch_oled/CI_NSwitch_main.jpg"
+  },
+  {
+    "title": "joycon switch Mario Bros",
+    "category": "accesorios",
+    "price": 150000,
+    "stock": 1,
+    "id": "b45407459fbc36accc9abe76",
+    "img": "https://cellplay.com.ar/img/Public/1081-producto-joystick-hori-nin6993-1-5442.jpg"
+  },
+  {
+    "title": "joycon switch Zelda",
+    "category": "accesorios",
+    "price": 150000,
+    "stock": 1,
+    "id": "d5f7b7f01a5a035f6a537dc5",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_787980-MLA46733223789_072021-O.webp"
+  },
+  {
+    "title": "joycon switch Pokémon",
+    "category": "accesorios",
+    "price": 150000,
+    "stock": 1,
+    "id": "7fed025ed508d92d5f4f1606",
+    "img": "https://planetagames.com.ar/wp-content/uploads/2023/03/SWITCH-OLED-POKEMON-5.jpg"
+  },
+  {
+    "title": "Xbox series S",
+    "category": "consola",
+    "price": 700000,
+    "stock": 1,
+    "id": "9e779dd8695e2c4de3911993",
+    "img": "https://m.media-amazon.com/images/I/61Vv5FeZH2L._SL1200_.jpg"
+  },
+  {
+    "title": "Xbox series x",
+    "category": "consola",
+    "price": 1100000,
+    "stock": 1,
+    "id": "596f88411778a2eb66a3f27f",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_942133-MLA74651936102_022024-O.webp"
+  },
+  {
+    "title": "GameBoy",
+    "category": "consola",
+    "price": "160000",
+    "stock": "3",
+    "img": "https://http2.mlstatic.com/D_NQ_NP_984262-MLU73979168474_012024-O.webp",
+    "id": "386d44f768b0db849caac7f7"
+  }
+]
