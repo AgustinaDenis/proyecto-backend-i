@@ -55,12 +55,18 @@ Por último, en localhost:8000/products/admin se mostrará la vista del administ
 
 El registro se realizó con Socket, mientras que las demás vistas fueron implementadas con JavaScript.
 
+# Entrega Final.
 
+### Gestión de Productos, Usuarios y Carritos
 
+Para la última entrega, implementamos gestores para productos, usuarios y carritos utilizando MongoDB para almacenar datos en la nube.
 
+Incorporamos las rutas de Carts, las cuales son:
 
+/carts/user_id: Este endpoint me lleva al carrito del usuario con el ID seleccionado, mostrando los productos que se encuentran en su carrito. Aquí, además de los productos, encontraremos un input para la cantidad, un botón para borrar un producto específico del carrito, un botón para comprar, otro para cancelar la compra y, por último, un botón para eliminar el carrito completo.
 
+### Uso de Paginación y Populate
 
+Paginación: Se implementa paginación para manejar la visualización de productos, mejorando la experiencia del usuario al navegar por grandes conjuntos de datos.
 
-
-
+Populate: Se utiliza la función de población de Mongoose para facilitar la relación entre carritos y productos, permitiendo obtener información detallada de los productos relacionados.

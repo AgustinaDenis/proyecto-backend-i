@@ -1,4 +1,4 @@
-import usersManager from "../data/users.manager.js"
+import usersManager from "../data/fs/users.manager.js"
 
 const socket =(socketP)=>{
     console.log("socket connected id: " + socketP.id)//socketP= socket parametro

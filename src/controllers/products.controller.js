@@ -1,5 +1,8 @@
-import productsManager from "../data/products.manager.js";
+import productsMongoManager from "../data/mongo/managers/product.mongo.js";
+import productsManager from "../data/fs/products.manager.js";
+import Controller from "./controller.js";
 
+//fs
 async function getAllProducts(req, res, next) {
   try {
     let { category } = req.query;
@@ -104,7 +107,12 @@ async function create(req, res, next) {
   }
 }
 
-//vistas
+//MONGO
+
+const productsController = new Controller(productsMongoManager, "PRODUCT")
+const {  createMongo, readAllMongo, paginate, readMongo, updateMongo, deleteMongo, showProduct } = productsController
+
+//VISTAS
 
 async function showAllProducts(req, res, next) {
   try {
@@ -112,9 +120,9 @@ async function showAllProducts(req, res, next) {
     let response;
 
     if (!category) {
-      response = await productsManager.readAll();  // Si no hay categoría, devolvemos todos los productos
+      response = await productsMongoManager.readAllMongo();  // Si no hay categoría, devolvemos todos los productos
     } else {
-      response = await productsManager.readAll(category);  // Si hay categoría, devolvemos los productos filtrados
+      response = await productsMongoManager.readAllMongo(category);  // Si hay categoría, devolvemos los productos filtrados
     }
 
     if (response.length > 0) {
@@ -131,8 +139,8 @@ async function showAllProducts(req, res, next) {
 
 async function showOneProduct(req, res, next) {
   try {
-    const { pid } = req.params;
-    const response = await productsManager.readId(pid);
+    const { id } = req.params;
+    const response = await productsMongoManager.showProduct(id);
     if (response) {
       return res.render("oneProduct", { oneProduct: response });
     } else {
@@ -149,7 +157,7 @@ async function showOneProduct(req, res, next) {
 async function adminPanelView(req, res, next) {
   try {
     console.log("Llamando a adminPanelView");
-    const products = await productsManager.readAll(); // Obtener todos los productos
+    const products = await productsMongoManager.readAllMongo(); // Obtener todos los productos
     res.render("admin", { products }); // Renderiza la vista del panel de administración
   } catch (error) {
     console.log(adminPanelView);
@@ -168,7 +176,7 @@ async function createProduct(req, res, next) {
       img: req.body.img, 
     };
 
-    await productsManager.create(newProduct); // Crear un nuevo producto
+    await productsMongoManager.createMongo(newProduct); // Crear un nuevo producto
     res.redirect("/products/admin"); // Redirige al admin
   } catch (error) {
     return next(error);
@@ -178,11 +186,13 @@ async function createProduct(req, res, next) {
 // Actualizar producto
 async function updateProduct(req, res, next) {
   try {
-    const { pid } = req.params; // Obtener el ID del producto
-    const updatedData = req.body; // Obtener los datos actualizados
-    await productsManager.update(pid, updatedData); // Actualizar el producto
+    const { id } = req.params; // Obtener el ID del producto
+    const updateData = req.body; // Obtener los datos actualizados
+    console.log("Actualizando producto con ID:", id, "Datos:", updateData);
+    await productsMongoManager.updateMongo(id, updateData); // Actualizar el producto
     res.redirect("/products/admin"); // Redirige al panel de administración
   } catch (error) {
+    console.error("Error al actualizar el producto:", error);
     return next(error);
   }
 }
@@ -190,12 +200,14 @@ async function updateProduct(req, res, next) {
 // Eliminar producto
 async function adminDelete(req, res, next) {
   try {
-    const { pid } = req.params; // Obtener el ID del producto
-    await productsManager.delete(pid); // Eliminar el producto
+    const { id } = req.params; // Obtener el ID del producto
+    console.log("Eliminando producto con ID:", id);
+    await productsMongoManager.deleteMongo(id); // Eliminar el producto
     res.redirect("/products/admin"); // Redirige al panel de administración
   } catch (error) {
+    console.error("Error al eliminar el producto:", error);
     return next(error);
   }
 }
 
-export { getAllProducts,createGet,getProduct,update,deleteProduct,create,showAllProducts,showOneProduct,adminPanelView,createProduct,updateProduct,adminDelete,};
+export { getAllProducts,createGet,getProduct,update,deleteProduct,create,showAllProducts,showOneProduct,adminPanelView,createProduct,updateProduct,adminDelete, createMongo, readAllMongo, paginate, readMongo, updateMongo, deleteMongo, showProduct};

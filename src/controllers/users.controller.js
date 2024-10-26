@@ -1,4 +1,6 @@
-import usersManager from "../data/users.manager.js";
+import usersMongoManager from "../data/mongo/managers/user.mongo.js";
+import usersManager from "../data/fs/users.manager.js";
+import Controller from "./controller.js";
 
 //crear
 async function createUser(req, res, next) {
@@ -89,10 +91,18 @@ async function deleteUser(req, res, next) {
   }
 }
 
+
+//MONGO
+const usersController = new Controller(usersMongoManager, "USER")
+const {  createMongo, readAllMongo, paginate, readMongo, updateMongo, deleteMongo, readUserByEmail, readUserById } = usersController
+
+
+// vistas
+
 //formulario de registro
 async function registerView (req,res,next){
   try {
-    const user = await usersManager.readUserId()
+    const user = await usersMongoManager.readUserById()
       return res.render("register", {user})
   } catch (error) {
       return next (error)
@@ -114,11 +124,11 @@ async function handleLogin(req, res, next) {
   try {
     const { emailLogin, passwordLogin } = req.body;
     //busca el usuario por email
-    const user = await usersManager.readUserByEmail(emailLogin); 
+    const user = await usersMongoManager.readUserByEmail(emailLogin); 
 
     //verifica si el usuario existe y si la contraseña es correcta
     if (user && user.password === passwordLogin) { 
-      return res.status(200).json({ status: "success", uid: user.id });
+      return res.status(200).json({ status: "success", id: user.id });
     } else {
       return res.status(404).json({ status: "error", message: "User not found or invalid credentials" });
     }
@@ -131,8 +141,8 @@ async function handleLogin(req, res, next) {
 //para mostrar el perfil del usuario
 async function userProfileView(req, res, next) {
   try {
-      const { uid } = req.params; // Obtiene el ID del usuario
-      const response = await usersManager.readUserId(uid);
+      const { id } = req.params; // Obtiene el ID del usuario
+      const response = await usersMongoManager.readUserById(id);
      
       if (response) {
           return res.render("profile", { profile : response }); // Renderiza la vista del perfil de usuario
@@ -149,4 +159,5 @@ async function userProfileView(req, res, next) {
 
 
 
-export { createUser, readAllUsers, readUserId, updateUser, deleteUser, registerView, loginView, handleLogin, userProfileView };
+
+export { createUser, readAllUsers, readUserId, updateUser, deleteUser, registerView, loginView, handleLogin, userProfileView, createMongo, readAllMongo, paginate, readMongo, updateMongo, deleteMongo, readUserByEmail,readUserById };

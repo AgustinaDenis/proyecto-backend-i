@@ -10,9 +10,9 @@ usersViewRouter.get("/register", registerView)
 //definimos la ruta de vistas para el formulario de login.
 usersViewRouter.get("/login", loginView)
 //definimos la ruta para manejar el inicio de sesión
-usersViewRouter.post("/login", handleLogin)
+usersViewRouter.post("/login",handleLogin)
 //definimos la ruta de vistas para ver el perfil del usuario
-usersViewRouter.get("/:uid", userProfileView)
+usersViewRouter.get("/:id", userProfileView)
 
 
 export default usersViewRouter

@@ -102,5 +102,61 @@
     "password": "hola123",
     "repeatPassword": "hola123",
     "id": "d6ab1f77676d8bbef162e6d2"
+  },
+  {
+    "name": "Claudia",
+    "email": "claudia@gmail.com",
+    "password": "clau123",
+    "repeatPassword": "clau123",
+    "id": "35e268b74bb323029c5e784d"
+  },
+  {
+    "name": "Agus",
+    "email": "agus@hola.com",
+    "password": "hola123",
+    "repeatPassword": "hola123",
+    "id": "43ad13b589eb698c3c47c040"
+  },
+  {
+    "name": "Eze",
+    "email": "eze@hola.com",
+    "password": "hola123",
+    "repeatPassword": "hola123",
+    "id": "e4d7901afd3a7a9348a7fd41"
+  },
+  {
+    "name": "Eze",
+    "email": "eze@hola.com",
+    "password": "hola123",
+    "repeatPassword": "hola123",
+    "id": "cab130a2ef3fa0845a932271"
+  },
+  {
+    "name": "eze",
+    "email": "eze@hola.com",
+    "password": "eze123",
+    "repeatPassword": "eze123",
+    "id": "a707e5d09f2286489b4a1467"
+  },
+  {
+    "name": "eze",
+    "email": "eze123@gmail.com",
+    "password": "hola123",
+    "repeatPassword": "hola123",
+    "id": "5a91bd3b2e350a3c92f244a8"
+  },
+  {
+    "name": "Jon Snow",
+    "email": "jon@jon.com",
+    "password": "jon123",
+    "repeatPassword": "jon123",
+    "id": "8572004c935f2e5b86041d83"
+  },
+  {
+    "name": "Jon Snow",
+    "email": "jon@jon.com",
+    "password": "jon123",
+    "repeatPassword": "jon123",
+    "id": "5c1dc23cffea43bc68eeaf1d"
   }
 ]
