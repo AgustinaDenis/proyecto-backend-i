@@ -6,9 +6,9 @@ const productsViewRouter = Router()
 productsViewRouter.get("/", showAllProducts)
 productsViewRouter.get("/admin", adminPanelView);
 productsViewRouter.post("/admin/create", createProduct);
-productsViewRouter.post("/admin/update/:pid", updateProduct);
-productsViewRouter.post("/admin/delete/:pid", adminDelete);
-productsViewRouter.get("/:pid", showOneProduct)
+productsViewRouter.post("/admin/update/:id", updateProduct);
+productsViewRouter.post("/admin/delete/:id", adminDelete);
+productsViewRouter.get("/:id", showOneProduct)
 
 
 export default productsViewRouter

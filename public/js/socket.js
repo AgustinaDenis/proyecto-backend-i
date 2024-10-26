@@ -9,9 +9,9 @@ document.querySelector("#botonRegister").addEventListener("click", () => {
   const email = document.querySelector("#email").value;
   const password = document.querySelector("#password").value;
   const repeatPassword = document.querySelector("#repeatPassword").value;
-  const userData = { name, email, password, repeatPassword };
+  const data = { name, email, password, repeatPassword };
   //creo el nuevo usuario
-  socket.emit("new user", userData);
+  socket.emit("new user", data);
 });
 
 socket.on("update user", (id) => {

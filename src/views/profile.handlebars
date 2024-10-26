@@ -6,8 +6,8 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">{{profile.name}}</h5>
-        <p class="card-text">{{profile.email}}</p>
+       <h5 class="card-title">{{#if profile.name}}{{profile.name}}{{else}}Nombre no disponible{{/if}}</h5>
+      <p class="card-text">{{#if this.email}}{{this.email}}{{else}}Correo no disponible{{/if}}</p>
       </div>
     </div>
   </div>

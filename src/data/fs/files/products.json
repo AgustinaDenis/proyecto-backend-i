@@ -66,7 +66,7 @@
   {
     "title": "teclado logitech",
     "category": "accesorios",
-    "price": "156000",
+    "price": "157000",
     "stock": "2",
     "id": "e95d7f9f39ed8e13f61463b3",
     "img": "https://mlx.com.ar/wp-content/uploads/PER104-2-jpg.webp"
@@ -326,5 +326,34 @@
     "stock": "3",
     "img": "https://http2.mlstatic.com/D_NQ_NP_984262-MLU73979168474_012024-O.webp",
     "id": "386d44f768b0db849caac7f7"
+  },
+  {
+    "title": "Celular Samsung",
+    "category": "celulares",
+    "price": 800000,
+    "stock": 3,
+    "id": "5c34d6d99324ec619bed5da2"
+  },
+  {
+    "title": "Celular Lg",
+    "category": "celulares",
+    "price": 800000,
+    "stock": 3,
+    "id": "2a4f5dc0526c72c351cf305f"
+  },
+  {
+    "title": "Mouse lg",
+    "category": "accesorios",
+    "price": 650000,
+    "stock": 2,
+    "id": "73af82cd4cee471cb3364adf"
+  },
+  {
+    "title": "hola",
+    "category": "accesorios",
+    "price": "133454",
+    "stock": "4",
+    "img": "https://acdn.mitiendanube.com/stores/001/097/819/products/iphone-15-pro-7c1ab5497a07442f3a16968118854095-1024-1024.jpeg",
+    "id": "df8d4530dedc9abc7dd5ba91"
   }
 ]

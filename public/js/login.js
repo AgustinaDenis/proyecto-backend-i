@@ -20,11 +20,12 @@ document.querySelector("#botonLogin").addEventListener("click", async (event) =>
         },
         body: JSON.stringify(userData)
       });
-  
+
       const result = await response.json();
+      console.log('Resultado de la respuesta:', result);  
   
       if (result.status === "success") {
-        window.location.href = `/users/${result.uid}`; // Redirección
+        window.location.href = `/users/${result.id}`; // Redirección
       } else {
         document.querySelector("#loginResponse").innerText = result.message; // Mensaje de error
       }

@@ -1,3 +1,4 @@
+import "dotenv/config.js";
 import express from "express";
 import router from "./src/routers/index.router.js";
 import morgan from "morgan";
@@ -9,16 +10,19 @@ import __dirname from "./utils.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import socket from "./src/routers/index.socket.js";
+import dbConnect from "./src/utils/db.util.js";
 
 
 
 
 //creo el server
 const server = express();
-//defino el puerto en donde va a funcionar mi server
-const port = 8000;
+//defino el puerto en donde va a funcionar mi server// 
+const port = process.env.PORT || 8000;
 //callback que se va a ejecutar cuando se inicie el server
-const ready = () => console.log("El server está en el puerto " + port);
+const ready = async() => {console.log("El server está en el puerto " + port);
+    await dbConnect()
+}
 //defino un servidor http con el metodo createServer
 const httpServer = createServer(server)
 //defino un servidor TCP en base al servidor HTTP
@@ -28,6 +32,7 @@ const tcpServer = new Server (httpServer)
 tcpServer.on("connection", socket)
 
 
+//middlewares
 
 //activo funcionabilidad de json
 server.use(express.json());
